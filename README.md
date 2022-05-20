@@ -29,7 +29,7 @@ docker run -d -p 80:80 {IMAGE-ID}
 
 ## Usage
 
-When running a container, you can then access the endpoints at `http://localhost/api/WeatherForecast/Get` and `http://localhost/api/WeatherForecast/StormPrediction`. After accessing the endpoints, have a look at `http://localhost/metrics` to see the metrics collected
+When running a container, you can then access the endpoints at `http://localhost/api/WeatherForecast/Get` and `http://localhost/api/WeatherForecast/PredictStorm`. After accessing the endpoints, have a look at `http://localhost/metrics` to see the metrics collected
 
 If running in your IDE, you'll have the Swagger UI to execute the endpoints. 
 
