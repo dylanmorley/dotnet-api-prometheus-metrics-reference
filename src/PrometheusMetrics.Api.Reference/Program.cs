@@ -37,8 +37,7 @@ app.UseAuthorization();
 app.UseEndpoints(endpoints =>
 {
     // This exposes the /metrics endpoint exporter, which will then be used for scraping by a prometheus 
-    // instance deployed on the cluster. The prometheus instance should then be configured to remote_write to 
-    // the Grafana hosted metrics instance
+    // instance deployed on the cluster. 
     endpoints.MapMetrics();
 });
 
